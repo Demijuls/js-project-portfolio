@@ -1,8 +1,15 @@
+import GlobalStyle from "./globalStyles";
+import { Header } from "./components/layout/Header";
+import { MainSection } from "./components/layout/MainSection";
+import { Footer } from "./components/layout/Footer";
+
 export const App = () => {
   return (
     <>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
+      <GlobalStyle />
+      <Header />
+      <MainSection />
+      <Footer />
     </>
-  )
-}
+  );
+};

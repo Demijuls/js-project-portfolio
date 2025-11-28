@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Code",
+    "items": ["HTML5", "CSS3", "Javascript ES6", "Styled Components", "GitHub"]
+  },
+  {
+    "title": "Toolbox",
+    "items": [
+      "Figma",
+      "Protopie",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe AfterEffects",
+      "Jira",
+      "Slack",
+      "Notion"
+    ]
+  },
+  {
+    "title": "Upcoming",
+    "items": ["React", "Node.js"]
+  },
+  {
+    "title": "More",
+    "items": [
+      "Human-centred design",
+      "Communication",
+      "UX/UI Design",
+      "Prototyping Development",
+      "Agile methodology"
+    ]
+  }
+]

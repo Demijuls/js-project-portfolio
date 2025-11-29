@@ -1,10 +1,17 @@
+import styled from "styled-components";
 import { ProjectCard } from "../ProjectCard";
 import weatherApp from "../../Assets/project1.jpg";
 import { ButtonGhost } from "../Buttons/ButtonGhost";
 
+const CardWrapper = styled.div`
+  background-color: #fff;
+  display: flex;
+  gap: 125px;
+`;
+
 export const ProjectSection = () => {
   return (
-    <div>
+    <CardWrapper>
       <ProjectCard
         imgSrc={weatherApp}
         altText="Chatbot built in javascript"
@@ -16,6 +23,6 @@ export const ProjectSection = () => {
         text="See more projects"
         link="test"
       />
-    </div>
+    </CardWrapper>
   );
 };

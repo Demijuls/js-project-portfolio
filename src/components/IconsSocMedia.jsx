@@ -1,8 +1,14 @@
+import styled from "styled-components";
 import { IconWithLink } from "./IconWithLink";
+
+const SocialWrapper = styled.div`
+  display: flex;
+  gap: 32px;
+`;
 
 export const IconsSocMedia = () => {
   return (
-    <div>
+    <SocialWrapper>
       <IconWithLink
         image={"/icons/Btn - github.svg"}
         link="https://github.com/Demijuls?tab=repositories"
@@ -15,6 +21,6 @@ export const IconsSocMedia = () => {
         image={"/icons/Btn - instagram.svg"}
         link="https://www.instagram.com/"
       />
-    </div>
+    </SocialWrapper>
   );
 };

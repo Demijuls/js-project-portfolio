@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../media";
 import portrait from "../Assets/avatar.JPG";
-import leftPic from "../Assets/codepicture.JPG";
+import leftPic from "../Assets/codepicture.jpg";
 import rightPic from "../Assets/wordspicture.jpg";
 
 const CarouselWrapper = styled.div`

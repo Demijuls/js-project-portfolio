@@ -90,11 +90,15 @@ export const ProjectCard = (props) => {
         <H3>{props.title}</H3>
         <BodyText>{props.about}</BodyText>
         <ButtonsWrapper>
-          <ButtonFilled icon={"/icons/Ic-Web.svg"} text="Live Demo" link="#" />
+          <ButtonFilled
+            icon={"/icons/Ic-Web.svg"}
+            text="Live Demo"
+            link={props.netlify}
+          />
           <ButtonFilled
             icon={"/icons/Btn - github.svg"}
             text="View Code"
-            link="#"
+            link={props.github}
           />
         </ButtonsWrapper>
       </CardInfo>

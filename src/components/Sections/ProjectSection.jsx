@@ -40,6 +40,8 @@ export const ProjectSection = () => {
       tags={data.tags}
       about={data.about}
       reverse={index % 2 === 1}
+      netlify={data.netlify}
+      github={data.github}
     />
   ));
 

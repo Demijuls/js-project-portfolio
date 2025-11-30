@@ -13,32 +13,32 @@
       "image": "/img/project1.jpg",
       "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "APIs"],
       "about": "Simple web app for weather forecast built with API XXX as a group prject with mob programming approach.",
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://weather-app-rock-3.netlify.app/",
+      "github": "https://github.com/Nicolinabl/js-project-weather-app"
     },
     {
       "name": "Bookclub subscription: Accessibility in focus",
       "image": "/img/project1.jpg",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "about": "Fully accessible subscription to bookclub.",
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://the-reading-room-accesibility-project.netlify.app/",
+      "github": "https://github.com/carro-barro/js-project-accessibility"
     },
     {
       "name": "Recipes through API",
       "image": "/img/project1.jpg",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "about": "A recipe page that fetches recipes from API to help people find something new for a dinner.",
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://juls-recipe-library.netlify.app/",
+      "github": "https://github.com/Demijuls/js-project-recipe-library"
     },
     {
       "name": "Business site",
       "image": "/img/project1.jpg",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "about": "Simple business site built with HTML5 and CSS3. First solo project in TechniGo.",
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://demijuls-technigo-project1.netlify.app/",
+      "github": "https://github.com/Demijuls/js-project-business-sitek"
     }
   ]
 }

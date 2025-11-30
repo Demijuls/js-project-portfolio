@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     scroll-behavior: smooth;
-    max-width: 1440px;
     background-color: white;
   }
 

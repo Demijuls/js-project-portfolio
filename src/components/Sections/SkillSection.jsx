@@ -19,7 +19,8 @@ const SkillWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 128px 329px;
+  width: 100%;
+  padding: 128px 320px;
 
   ${media.tablet} {
     padding: 64px auto;

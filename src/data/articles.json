@@ -1,0 +1,25 @@
+{
+  "article": [
+    {
+      "name": "Career change for the Nth time. Wow or ouch?",
+      "image": "/img/project1.jpg",
+      "date": "July 14th",
+      "about": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "article": "link"
+    },
+    {
+      "name": "Local girl is trying to use logic",
+      "image": "/img/project1.jpg",
+      "date": "June 8th",
+      "about": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "article": "link"
+    },
+    {
+      "name": "Do it while scared and in doubt",
+      "image": "/img/project1.jpg",
+      "date": "May 22nd",
+      "about": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "article": "link"
+    }
+  ]
+}

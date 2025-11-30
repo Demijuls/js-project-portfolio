@@ -19,11 +19,11 @@ const SkillWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* grid-template-columns: repeat(4, 1fr); */
   padding: 128px 329px;
 
   ${media.tablet} {
     padding: 64px auto;
+    align-self: stretch;
   }
 
   ${media.mobile} {
@@ -72,27 +72,22 @@ const StyledH3 = styled(H3)`
   }
 `;
 
-/* const UnList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 24px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-`; */
-
 export const SkillSection = () => {
   const skillBlocks = skills.map((skillData) => {
     const skillListItem = skillData.items.map((skillItem) => (
-      <ListItems color="#fff">{skillItem}</ListItems>
+      <ListItems key={skillItem} color="#fff">
+        {skillItem}
+      </ListItems>
     ));
 
     return (
-      <SkillBlock>
-        <StyledH3 size="16px" color="#fff" padding="2px 6 px">
+      <SkillBlock key={skillData.title}>
+        <StyledH3 size="16px" color="#fff" padding="2px 6px">
           {skillData.title}
         </StyledH3>
-        <ListUnord>{skillListItem}</ListUnord>
+        <ListUnord aria-label={`${skillData.title} skills`}>
+          {skillListItem}
+        </ListUnord>
       </SkillBlock>
     );
   });

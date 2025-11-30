@@ -12,6 +12,14 @@ const GlobalStyle = createGlobalStyle`
     max-width: 1440px;
     background-color: white;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
 `;
 
 export default GlobalStyle;

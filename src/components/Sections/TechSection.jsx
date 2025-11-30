@@ -21,6 +21,16 @@ const TechWrapper = styled.div`
     padding: 24px auto;
     gap: 12px;
   }
+
+  ${media.tablet} {
+    padding: 64px 24px;
+    align-self: stretch;
+  }
+
+  ${media.mobile} {
+    padding: 64px 16px;
+    align-self: stretch;
+  }
 `;
 
 export const TechSection = () => {

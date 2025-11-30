@@ -33,20 +33,29 @@ const ImgBase = styled.img`
   width: 358px;
   height: 382px;
   object-fit: cover;
-  transition: 0.4ms ease;
-`;
+  transition: 0.4s ease;
 
-const ImgCenter = styled(ImgBase)`
-  z-index: 4;
-
-  ${CarouselWrapper}:hover & {
-    transform: rotate(8deg) scale(1.1);
+  ${media.tablet} {
+    width: 260px;
+    height: 277px;
+    object-fit: cover;
   }
 
   ${media.mobile} {
     margin: 0;
     width: 200px;
     height: 210px;
+  }
+`;
+
+const ImgCenter = styled(ImgBase)`
+  z-index: 4;
+
+  ${CarouselWrapper}:hover &, ${CarouselWrapper}:focus-within & {
+    transform: rotate(8deg) scale(1.1);
+  }
+
+  ${CarouselWrapper}:focus-within & {
   }
 `;
 
@@ -63,8 +72,6 @@ const ImgLeft = styled(ImgBase)`
     margin: 0;
     transform: none;
     left: 0;
-    width: 200px;
-    height: 210px;
   }
 `;
 
@@ -81,15 +88,13 @@ const ImgRight = styled(ImgBase)`
     margin: 0;
     transform: none;
     right: 0;
-    width: 200px;
-    height: 210px;
   }
 `;
 
 const HeroCarousel = () => {
   return (
-    <CarouselWrapper>
-      <ImgLeft src={leftPic} alt="picture of a black screen with code lines" />
+    <CarouselWrapper role="group" aria-label="Three image collage">
+      <ImgLeft src={leftPic} alt="black screen with code lines" />
       <ImgCenter src={portrait} alt="Julia's portrait" />
       <ImgRight
         src={rightPic}

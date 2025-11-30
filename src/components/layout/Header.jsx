@@ -12,6 +12,18 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   gap: 40px;
   text-align: center;
+
+  ${media.mobile} {
+    p {
+      font-size: 18px !important;
+    }
+  }
+
+  ${media.tablet} {
+    p {
+      font-size: 18px !important;
+    }
+  }
 `;
 
 export const Header = () => {

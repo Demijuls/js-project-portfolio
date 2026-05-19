@@ -1,7 +1,21 @@
 [
   {
     "title": "Code",
-    "items": ["HTML5", "CSS3", "Javascript ES6", "Styled Components", "GitHub"]
+    "items": [
+      "HTML5",
+      "CSS3",
+      "Javascript ES6",
+      "JSX",
+      "React",
+      "React Hooks",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "NoSQL",
+      "Styled Components",
+      "GitHub"
+    ]
   },
   {
     "title": "Toolbox",
@@ -18,7 +32,7 @@
   },
   {
     "title": "Upcoming",
-    "items": ["React", "Node.js"]
+    "items": ["Next.js"]
   },
   {
     "title": "More",
@@ -26,7 +40,8 @@
       "Human-centred design",
       "Communication",
       "UX/UI Design",
-      "Prototyping Development",
+      "Prototyping",
+      "Development",
       "Agile methodology"
     ]
   }

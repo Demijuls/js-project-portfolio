@@ -49,14 +49,14 @@ export const ProjectSection = () => {
     <SectionWrapper>
       <H2>Featured Projects</H2>
       {listProjectCards}
-      <ButtonWrapper>
+      {/* <ButtonWrapper>
         <ButtonGhost
           icon={"/icons/Ic-ArrowDown.svg"}
           text="See more projects"
           link="test"
           ariaLabel={`See more projects`}
         />
-      </ButtonWrapper>
+      </ButtonWrapper> */}
     </SectionWrapper>
   );
 };

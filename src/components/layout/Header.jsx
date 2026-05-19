@@ -37,16 +37,16 @@ export const Header = () => {
       </H1>
       <HeroCarousel />
       <H2 weight="500" size="30px" align="center" padding="16px 0">
-        Dedicated Web&Frontend Developer with a background in UX/UI Design
+        Frontend Developer who thinks in user experience
       </H2>
       <BodyText align="center" padding="16px 0">
-        Julia is a <b>Web and Front-Developer</b> with strong emphasis on user
-        experience that she took from her years of being UX/UI Designer. With a
-        foundation in design and a growing passion for code, she is exploring
-        how JavaScript, React, Node.js, APIs, and Web Accessibility can create
-        digital experiences that feel both intuitive and deeply human. Now
-        looking for an <b>LIA/internship</b> to grow as a developer and
-        contribute to a team with her with curiosity and problem-solving skills.
+        Julia is a junior <b>frontend developer</b> with a background in
+        <b> UX/UI design</b> and 3+ years working in product teams at tech
+        companies. She brings a rare combination of technical skills and design
+        thinking: understanding how users experience interfaces, and can build
+        them. She recently completed a 32-week fullstack JavaScript bootcamp at
+        Technigo, where she built real products under weekly production
+        deadlines — and now looking for her frontend role in Stockholm.
       </BodyText>
     </SectionWrapper>
   );

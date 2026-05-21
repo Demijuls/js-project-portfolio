@@ -29,17 +29,17 @@ const SectionWrapper = styled.section`
 export const Header = () => {
   return (
     <SectionWrapper className="heroSection">
-      <BodyText align="center" padding="16px 0">
+      <BodyText $align="center" $padding="16px 0">
         Hi there, I'm{" "}
       </BodyText>
-      <H1 align="center" padding="16px 0">
+      <H1 $align="center" $padding="16px 0">
         Julia
       </H1>
       <HeroCarousel />
-      <H2 weight="500" size="30px" align="center" padding="16px 0">
+      <H2 $weight="500" $size="30px" $align="center" $padding="16px 0">
         Frontend Developer who thinks in user experience
       </H2>
-      <BodyText align="center" padding="16px 0">
+      <BodyText $align="center" $padding="16px 0">
         Julia is a junior <b>frontend developer</b> with a background in
         <b> UX/UI design</b> and 3+ years working in product teams at tech
         companies. She brings a rare combination of technical skills and design

@@ -27,16 +27,16 @@ const ContactsWrapper = styled.div`
 export const Footer = () => {
   return (
     <FooterWrapper>
-      <H2 color="#fff">Let's talk</H2>
+      <H2 $color="#fff">Let's talk</H2>
       <FooterAvatar />
       <ContactsWrapper>
-        <BodyText align="center" color="#fff">
+        <BodyText $align="center" $color="#fff">
           Julia Demianetc
         </BodyText>
-        <BodyText align="center" color="#fff">
+        <BodyText $align="center" $color="#fff">
           +46 00 00 00 00 00
         </BodyText>
-        <BodyText align="center" color="#fff">
+        <BodyText $align="center" $color="#fff">
           julia.demianetc@gmail.com
         </BodyText>
       </ContactsWrapper>

@@ -36,8 +36,8 @@ const TechWrapper = styled.div`
 export const TechSection = () => {
   return (
     <TechWrapper>
-      <H2 color="#fff">Tech</H2>
-      <BodyText align="center" color="#fff">
+      <H2 $color="#fff">Tech</H2>
+      <BodyText $align="center" $color="#fff">
         HTML, CSS, Flexbox, JavaScript ES6, JSX, React, React Hooks, Node.js,
         Mongo DB, Express.js, Web Accessibility, APIs, mob-programming,
         pair-programming, GitHub

@@ -18,7 +18,7 @@ const StyledText = styled(BodyText)`
 
 export const ProjectTag = ({ tag }) => {
   return (
-    <StyledText size="16px" padding="2px 6px">
+    <StyledText $size="16px" $padding="2px 6px">
       {tag}
     </StyledText>
   );

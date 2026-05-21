@@ -17,7 +17,7 @@ const StyledText = styled(BodyText)`
 
 export const ArticleDate = ({ date }) => {
   return (
-    <StyledText size="16px" padding="2px 6px">
+    <StyledText $size="16px" $padding="2px 6px">
       {date}
     </StyledText>
   );

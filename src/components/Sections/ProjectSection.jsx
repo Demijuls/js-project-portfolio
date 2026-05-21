@@ -8,19 +8,35 @@ import { media } from "../../media";
 
 const SectionWrapper = styled.div`
   background-color: #fff;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 128px;
-  align-content: center;
-  margin: 128px;
+  justify-content: center;
+  padding: 128px 0;
 
   ${media.tablet} {
-    margin: 64px 24px;
-    gap: 64px;
+    padding: 64px 0;
   }
 
   ${media.mobile} {
-    margin: 64px 16px;
+    padding: 64px 0;
+  }
+`;
+
+const ContentWrapper = styled.div`
+  width: 100%;
+  max-width: min(1200px, 100% - 48px);
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  padding: 0 24px;
+
+  ${media.tablet} {
+    gap: 64px;
+    padding: 0 24px;
+  }
+
+  ${media.mobile} {
+    padding: 0 16px;
     gap: 64px;
   }
 `;
@@ -47,9 +63,10 @@ export const ProjectSection = () => {
 
   return (
     <SectionWrapper>
-      <H2>Featured Projects</H2>
-      {listProjectCards}
-      {/* <ButtonWrapper>
+      <ContentWrapper>
+        <H2>Featured Projects</H2>
+        {listProjectCards}
+        {/* <ButtonWrapper>
         <ButtonGhost
           icon={"/icons/Ic-ArrowDown.svg"}
           text="See more projects"
@@ -57,6 +74,7 @@ export const ProjectSection = () => {
           ariaLabel={`See more projects`}
         />
       </ButtonWrapper> */}
+      </ContentWrapper>
     </SectionWrapper>
   );
 };

@@ -26,7 +26,7 @@ const CardContent = styled.div`
   display: flex;
   gap: 125px;
   align-content: space-between;
-  flex-direction: ${(props) => (props.reverse ? "row-reverse" : "row")};
+  flex-direction: ${(props) => (props.$reverse ? "row-reverse" : "row")};
 
   ${media.tablet} {
     flex-direction: column;
@@ -64,9 +64,9 @@ const CardInfo = styled.div`
 
 const TagsWrapper = styled.div`
   display: flex;
-  align-items: flex-start;
+  //align-items: flex-start;
   gap: 4px;
-  align-self: stretch;
+  //align-self: stretch;
   flex-wrap: wrap;
 `;
 
@@ -83,7 +83,7 @@ export const ProjectCard = (props) => {
     <ProjectTag key={name} tag={name} />
   ));
   return (
-    <CardContent reverse={props.reverse}>
+    <CardContent $reverse={props.reverse}>
       <ProjectImg src={props.imgSrc} alt={props.altText} />
       <CardInfo>
         <TagsWrapper>{allTags}</TagsWrapper>

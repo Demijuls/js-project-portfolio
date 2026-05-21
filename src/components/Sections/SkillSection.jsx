@@ -76,14 +76,14 @@ const StyledH3 = styled(H3)`
 export const SkillSection = () => {
   const skillBlocks = skills.map((skillData) => {
     const skillListItem = skillData.items.map((skillItem) => (
-      <ListItems key={skillItem} color="#fff">
+      <ListItems key={skillItem} $color="#fff">
         {skillItem}
       </ListItems>
     ));
 
     return (
       <SkillBlock key={skillData.title}>
-        <StyledH3 size="16px" color="#fff" padding="2px 6px">
+        <StyledH3 $size="16px" $color="#fff" $padding="2px 6px">
           {skillData.title}
         </StyledH3>
         <ListUnord aria-label={`${skillData.title} skills`}>
@@ -95,7 +95,7 @@ export const SkillSection = () => {
 
   return (
     <SkillWrapper>
-      <H2 color="#fff">Skills</H2>
+      <H2 $color="#fff">Skills</H2>
       <GridWrapper>{skillBlocks}</GridWrapper>
     </SkillWrapper>
   );

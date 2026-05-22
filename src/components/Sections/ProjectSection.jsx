@@ -3,8 +3,10 @@ import { H2 } from "../Typography";
 import { ProjectCard } from "../ProjectCard";
 import { ButtonGhost } from "../Buttons/ButtonGhost";
 
-import projects from "../../data/projects.json";
+//import projects from "../../data/projects.json";
+
 import { media } from "../../media";
+import { projects } from "../../data/projects";
 
 const SectionWrapper = styled.div`
   background-color: #fff;
@@ -47,7 +49,7 @@ const ButtonWrapper = styled.div`
 `;
 
 export const ProjectSection = () => {
-  const listProjectCards = projects.projects.map((data, index) => (
+  const listProjectCards = projects.map((data, index) => (
     <ProjectCard
       key={data.name}
       title={data.name}

@@ -1,17 +1,17 @@
-import kidAgency from "../assets/kidAgency.png";
-import randy from "../assets/randy.png";
-import happyt from "../assets/happyt.png";
+import randy from "../assets/Randy-mock.png";
+import happyt from "../assets/happy-thoughts-web.png";
 import movies from "../assets/movies.png";
-import todolist from "../assets/todolist.png";
-import weather from "../assets/weather.png";
-import book from "../assets/bookclub.png";
-import recipes from "../assets/recipes.png";
-import business from "../assets/businessflor.png";
+import todolist from "../assets/todo-mock.png";
+import weather from "../assets/weather-api-mock.png";
+import book from "../assets/read-accessibilty-mock.png";
+import recipes from "../assets/recipe-mock.png";
+import business from "../assets/business-mockup.png";
+import kidWeb from "../assets/kid-web-mock.png";
 
 export const projects = [
   {
     name: "Kid Collective — Agency Website (LIA)",
-    image: kidAgency,
+    image: kidWeb,
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Storybook"],
     about:
       "Official portfolio site for an independent Stockholm creative agency. Built with React 19, TypeScript, and Tailwind CSS v4, featuring a scroll-driven parallax grid, clip-path hover reveal effects, infinite scroll with IntersectionObserver, and a full component library documented in Storybook. Deployed on Netlify with SPA routing.",

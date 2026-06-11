@@ -13,7 +13,7 @@
       "MongoDB",
       "Mongoose",
       "NoSQL",
-      "Styled Components",
+      "Styled components",
       "GitHub"
     ]
   },
@@ -32,12 +32,12 @@
   },
   {
     "title": "Upcoming",
-    "items": ["Next.js"]
+    "items": ["Next.js", "PostgreSQL"]
   },
   {
     "title": "More",
     "items": [
-      "Human-centred design",
+      "Human-centered design",
       "Communication",
       "UX/UI Design",
       "Prototyping",

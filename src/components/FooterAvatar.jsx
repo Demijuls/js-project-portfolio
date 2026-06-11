@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import avatarFooter from "../assets/AvatarFooter.png";
+import avatarFooter from "../assets/footer_av.png";
 
 const AvatarStyled = styled.img`
   width: 164px;

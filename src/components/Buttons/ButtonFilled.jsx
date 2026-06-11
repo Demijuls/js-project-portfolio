@@ -26,7 +26,7 @@ const ButtonStyled = styled.a`
 
   /* Hover */
   &:hover {
-    background: #222;
+    background: #5360eb;
   }
 
   /* Keyboard focus */
